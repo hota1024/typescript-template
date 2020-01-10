@@ -3,14 +3,16 @@
     "target": "ES6",
     "module": "commonjs",
     "outDir": "./lib",
-    "rootDir": "./src",
+    "rootDir": "./",
     "sourceMap": true,
     "esModuleInterop": true,
     "declaration": true,
     "declarationDir": "./types",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "composite": true
   },
   "include": [
     "src/**/*",
+    "tests/**/*"
   ]
 }
