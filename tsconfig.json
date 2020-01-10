@@ -12,11 +12,5 @@
   },
   "include": [
     "src/**/*",
-  ],
-  "exclude": [
-    "tests",
-    "lib",
-    "types",
-    "node_modules"
   ]
 }
