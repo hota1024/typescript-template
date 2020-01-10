@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "TypeScript package template.",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "author": "hota1024",
   "license": "MIT",
   "private": false,
