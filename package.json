@@ -4,7 +4,10 @@
   "description": "TypeScript package template.",
   "main": "lib/src/index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "author": "hota1024",
   "license": "MIT",
